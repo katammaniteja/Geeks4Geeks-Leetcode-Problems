@@ -15,10 +15,11 @@ string helper(string str,int &ind){
         }
         else if(str[ind]>='0' && str[ind]<='9'){
             int n=str[ind]-'0';
-            ind=ind+2;
+            ind++;
             string temp=helper(str,ind);
             for(int i=1;i<=n;i++) ans+=temp;
         }
+        else if(str[ind]=='(') ind++;
         else{
             ans+=str[ind];
             ind++;

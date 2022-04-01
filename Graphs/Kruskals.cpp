@@ -38,7 +38,6 @@ int main(){
     edges.push_back(node(2,0,6));
     edges.push_back(node(0,3,5)),
     sort(edges.begin(),edges.end(),comp);
-    // cout<<edges[1].wt;
     vector<int>parent(v);
     for(int i=0;i<v;i++) parent[i]=i;
     vector<int>rank(v,0);

@@ -14,3 +14,8 @@
 - Strongly Connected Components
 - Solving maze and similar puzzles
 - path finding
+
+## Dijkstra's Algorithm
+- It doesn't work for negative weight edges
+- Does the shortest path change if add a weight to all edges of original graph? - Yes
+- Multiplication of every edge doesn't impact on shortest path
